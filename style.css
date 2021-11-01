@@ -1,0 +1,152 @@
+body{
+    background-color: grey;
+} 
+/* TOPBOX */
+.box{
+    border: 7px solid red;
+    width: 30%;
+    margin-left: 33%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px purple;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+    color: purple;
+}
+.container{
+    border: 1px solid white;
+    width: 100%;
+    height: 22%;
+    margin: 0px;
+}
+/* FOUR BOXES */
+.container1{
+    width: 100%;
+    height:800px;
+    border: 8px solid green;
+}
+.square{
+    border-radius: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 180px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: purple;
+    border: 7px solid red;
+    box-shadow: 3px 3px 5px purple;
+}
+img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.box1{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.welcome{
+    text-align: center;
+}
+#square1{
+    text-align: center;
+    position: absolute;
+    
+}
+#square2{
+ text-align: center;
+ position: absolute;
+ right: 0px;
+}
+#square3{
+text-align: center;
+font-size:smaller;
+position:absolute;
+margin-top: 40%;
+}
+#square4{
+text-align: center;
+font-size:smaller;
+position: absolute;
+margin-left: 85%;
+margin-top: 40%;
+}
+/* FIXED BOX */
+.box2{
+    width: 30%;
+    height: 10%;
+    color: red;
+    border-radius: 5px;
+    border: 5px solid red;
+    font-style:italic;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 5px purple;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 900;
+    font-size: large;
+}
+.submit{
+    border: 1px solid black;
+    background-color: red;
+    color: black;
+    border-radius: 40px;
+    width: 100px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+.container4{
+    border: 10px solid purple;
+    width: 50%;
+    height: 640px;
+    background-color: rgb(40, 172, 40);
+    margin-left: 260PX;
+}
+
+.fruits{
+   width: 49%;
+    color: black;
+    background-color: yellow
+}
+#fruits1{
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    
+}
+.veg{
+   width: 50%;
+    color: black;
+    background-color: yellow
+}
+#veg1{
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    
+
+}
+.other{
+  width: 100%;
+    color: black;
+    background-color: yellow
+}
+#other1{
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
